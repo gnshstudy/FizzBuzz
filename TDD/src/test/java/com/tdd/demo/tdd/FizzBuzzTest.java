@@ -15,8 +15,8 @@ public class FizzBuzzTest {
 
 	@Test
 	public void testNumber() {
-		String returnedNumber = fizzBuzz.play(1);
-		assertEquals("1", returnedNumber);
+		String returnedNumber = fizzBuzz.play(2);
+		assertEquals("2", returnedNumber);
 	}
 
 	@Test

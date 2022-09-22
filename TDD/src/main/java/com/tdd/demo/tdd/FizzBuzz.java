@@ -6,13 +6,15 @@ import org.springframework.stereotype.Component;
 public class FizzBuzz {
 
 	public String play(int i) {
-		if(i%3==0) {
+		if(i%3==0 && i%5==0) {
+			return "FizzBuzz";
+		}else if(i%3==0) {
 			return "Fizz";
-		}
-		if(i%5==0) {
+		}else if(i%5==0) {
 			return "Buzz";
-		}
+		}else {
 		return String.valueOf(i);
+		}
 		// TODO Auto-generated method stub
 	}
 
