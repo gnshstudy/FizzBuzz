@@ -24,5 +24,12 @@ public class FizzBuzzTest {
 		String returnedNumber = fizzBuzz.play(6);
 		assertEquals("Fizz", returnedNumber);
 	}
+	
+	
+	@Test
+	public void testBuzz() {
+		String returnedNumber = fizzBuzz.play(5);
+		assertEquals("Buzz", returnedNumber);
+	}
 
 }
