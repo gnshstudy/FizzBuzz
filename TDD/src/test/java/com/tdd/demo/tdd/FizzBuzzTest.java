@@ -21,7 +21,7 @@ public class FizzBuzzTest {
 
 	@Test
 	public void testFizz() {
-		String returnedNumber = fizzBuzz.play(3);
+		String returnedNumber = fizzBuzz.play(6);
 		assertEquals("Fizz", returnedNumber);
 	}
 
