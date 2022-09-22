@@ -1,10 +1,13 @@
 package com.tdd.demo.tdd;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class FizzBuzz {
 
-	public void play(int i) {
+	public int play(int i) {
+		return i;
 		// TODO Auto-generated method stub
-		
 	}
 
 }
